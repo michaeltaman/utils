@@ -1,0 +1,14 @@
+{
+    "name": "michaeltaman",
+    "version": "1.0.0",
+    "repository": "git@michaeltaman.github.com:michaeltaman/michaeltaman.git",
+    "author": "Michael Trembovler <mictrwork@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "compile": "(if exist dist\\lib rmdir /S /Q dist\\lib) && (mkdir dist\\lib) && tsc && tsc --build tsconfig.es5.json && npm install"
+    },
+    "devDependencies": {
+      "parcel": "^2.5.0",
+      "typescript": "^4.6.3"
+    }
+  }
