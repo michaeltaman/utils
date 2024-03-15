@@ -5,10 +5,14 @@
     "author": "Michael Trembovler <mictrwork@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "compile": "(if exist dist\\lib rmdir /S /Q dist\\lib) && (mkdir dist\\lib) && tsc && tsc --build tsconfig.es5.json && npm install"
+        "compile": "(if exist dist\\lib rmdir /S /Q dist\\lib) && (mkdir dist\\lib) && tsc && tsc --build tsconfig.es5.json && npm install",
+        "parcel": "parcel src/index.html"
     },
     "devDependencies": {
-      "parcel": "^2.5.0",
-      "typescript": "^4.6.3"
+        "parcel": "^2.12.0",
+        "typescript": "^4.6.3"
+    },
+    "dependencies": {
+        "@mictrwork/utils": "^0.0.1"
     }
-  }
+}

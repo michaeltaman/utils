@@ -6,25 +6,28 @@
     "module": "lib/es6/index.js",
     "sideEffects": false,
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/michaeltaman/utils.git"
+        "type": "git",
+        "url": "git+https://github.com/michaeltaman/utils.git"
     },
     "files": [
-      "lib",
-      "CHANGELOG.md",
-      "LICENSE",
-      "package.json",
-      "README.md"
+        "lib",
+        "CHANGELOG.md",
+        "LICENSE",
+        "package.json",
+        "README.md"
     ],
     "keywords": [
-      "javascript",
-      "utils",
-      "utilities"
+        "javascript",
+        "utils",
+        "utilities"
     ],
     "author": "Michael Trembovler",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/michaeltaman/utils/issues"
+        "url": "https://github.com/michaeltaman/utils/issues"
     },
-    "homepage": "https://github.com/michaeltaman/utils#readme"
-  }
+    "homepage": "https://github.com/michaeltaman/utils#readme",
+    "dependencies": {
+        "@mictrwork/utils": "^0.0.1"
+    }
+}
